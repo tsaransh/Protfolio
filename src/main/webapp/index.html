@@ -340,20 +340,20 @@
                     </div>
                 </div>
 
-                <!-- /* ...............................................................................................................  */ -->
+                <!-- /* .....................contact page..........................................................................................  */ -->
 
 
-                <form action="">
+                <form method = "post" action="submitDetail.do">
                     <div class="input-wrap">
-                        <input type="text" placeholder="Your Name *">
-                        <input type="email" placeholder="Your E-Mail *">
+                        <input type="text" name = "userName" placeholder="Your Name *">
+                        <input type="email" name = "userEmail" placeholder="Your E-Mail *">
                     </div>
                     <div class="input-wrap-2">
-                        <input type="text" placeholder="Your Subject....">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message...."></textarea>
+                        <input type="text" name="userSubject" placeholder="Your Subject....">
+                        <textarea name="userDesc" id="" cols="30" rows="10" placeholder="Your Message...."></textarea>
                     </div>
                     <div class="btn-wrapper">
-                        <button class="btn btn-primary">SEND MESSAGE</button>
+                        <button class="btn btn-primary" type = "submit" name = "submitAction">SEND MESSAGE</button>
                     </div>
                 </form>
             </div>
